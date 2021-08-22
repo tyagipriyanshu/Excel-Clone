@@ -11,4 +11,4 @@ download.addEventListener("click", function () {
     a.download = "file.json";
     a.href = url;
     a.click();
-})
+});

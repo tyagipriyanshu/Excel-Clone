@@ -17,7 +17,7 @@ let gridContainer = document.querySelector(".grid_container");
 let topLeftBlock = document.querySelector(".top-left-block");
 let sheetDB = workSheetDB[0];
 firstSheet.addEventListener("click", handleActiveSheet);
-// create sheets and add functionlities
+// create sheets and add functionalities
 addbtnContainer.addEventListener("click", function () {
     let sheetsArr = document.querySelectorAll(".sheet");
     let lastSheetElem = sheetsArr[sheetsArr.length - 1];
