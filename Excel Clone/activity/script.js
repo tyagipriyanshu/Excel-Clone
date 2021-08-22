@@ -128,6 +128,7 @@ gridContainer.addEventListener("scroll", function () {
 
 // initial cell click emulate
 Allcells[0].click();
+
 // ************Formatting****************
 leftBtn.addEventListener("click", function () {
     let address = addressBar.value;
@@ -417,15 +418,15 @@ function removeFormula(cellObject, address) {
     }
     cellObject.formula = "";
 }
+
 // ***********helper fn**********************
 
-function getRIdCIdfromAddress(adress) {
+function getRIdCIdfromAddress(address) {
     // B3
-    let cellColAdr = adress.charCodeAt(0);
+    let cellColAdr = address.charCodeAt(0);
     // console.log(cellColAdr);
-    let cellrowAdr = adress.slice(1);
+    let cellrowAdr = address.slice(1);
     let cid = cellColAdr - 65;
     let rid = Number(cellrowAdr) - 1;
     return { cid, rid };
-
 }
