@@ -1,21 +1,23 @@
-// let a=10;
 // script -> grid
+// grid container
 
-
-
+// top row
 let topRow = document.querySelector(".top-row");
 let str = "";
 for (let i = 0; i < 26; i++) {
     str += `<div class='col'>${String.fromCharCode(65 + i)}</div>`;
 }
 topRow.innerHTML = str;
+
+// left column
 let leftCol = document.querySelector(".left-col");
 str = ""
 for (let i = 0; i < 100; i++) {
     str += `<div class='left-col_box'>${i + 1}</div>`
 }
 leftCol.innerHTML = str;
-// 2d array
+
+// grid -> 2d array
 let grid = document.querySelector(".grid");
 str = "";
 for (let i = 0; i < 100; i++) {
@@ -26,9 +28,6 @@ for (let i = 0; i < 100; i++) {
     str += "</div>";
 }
 grid.innerHTML = str;
-
-
-
 
 
 // initial load
@@ -60,5 +59,5 @@ function initCurrentSheetDb() {
 }
 initCurrentSheetDb();
 
-//  2 d Array-> styling prop
+//  2D Array -> to store styling properties of each cell.
 //  cell set 
