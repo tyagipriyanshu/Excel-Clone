@@ -1,4 +1,4 @@
-# Excel Clone - A Spreadsheet Application Built with Vanilla JS
+# Excel Clone - A Spreadsheet Application Built with Vanilla JavaScript
 This is a lightweight **Excel Clone** application built using **Vanilla JavaScript**, **HTML**, and **CSS**. The application mimics basic spreadsheet functionality, including data entry, cell formatting, formula calculations, dynamic updates, and multiple sheets within a single workbook. . It leverages a **graph data structure** to manage cell dependencies and evaluate formulas.
 
 **Features**
