@@ -17,9 +17,9 @@ You can check out a live demo of this application here.
 ### **Installation**
 To run the application locally:
 * Clone the repository:
-* `git clone https://github.com/your-username/excel-clone.git`
+`git clone https://github.com/your-username/excel-clone.git`
 * Navigate into the project directory:
-* `cd excel-clone`
+`cd excel-clone`
 * Open the `index.html` file in your browser to start using the application.
 
 ### **Technologies Used**
