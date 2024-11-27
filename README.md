@@ -11,9 +11,6 @@ This is a lightweight **Excel Clone** application built using **Vanilla JavaScri
 * **Multiple Sheets**: Create and switch between multiple sheets in the same workbook. Each sheet functions independently, with its own set of data and formulas.
 * **Basic Save/Dowmload**: Save your spreadsheet data or download.
 
-### **Demo**
-You can check out a live demo of this application here.
-
 ### **Installation**
 To run the application locally:
 * Clone the repository:
