@@ -1,7 +1,7 @@
 # Excel Clone - A Spreadsheet Application Built with Vanilla JavaScript
 This is a lightweight **Excel Clone** application built using **Vanilla JavaScript**, **HTML**, and **CSS**. The application mimics basic spreadsheet functionality, including data entry, cell formatting, formula calculations, dynamic updates, and multiple sheets within a single workbook. It leverages a **graph data structure** to manage cell dependencies and evaluate formulas.
 
-### **Features**
+### Features
 * **Cell Editing**: Click on a cell to enter values.
 * **Formula Support**: Supports basic formulas like **=A1+B1**, and other mathematical operations (Can set formula only in the formula bar).
 * **Real-time Calculation**: When a cell value changes, all dependent cells are recalculated automatically using a graph data structure.
@@ -11,7 +11,7 @@ This is a lightweight **Excel Clone** application built using **Vanilla JavaScri
 * **Multiple Sheets**: Create and switch between multiple sheets in the same workbook. Each sheet functions independently, with its own set of data and formulas.
 * **Basic Save/Dowmload**: Save your spreadsheet data or download.
 
-### **Installation**
+### Installation
 To run the application locally:
 * Clone the repository:
 `git clone https://github.com/your-username/excel-clone.git`
@@ -19,13 +19,13 @@ To run the application locally:
 `cd excel-clone`
 * Open the `index.html` file in your browser to start using the application.
 
-### **Technologies Used**
+### Technologies Used
 * **Vanilla JavaScript**: For handling all the logic (formula parsing, dependency management, cell interactions).
 * **HTML5**: For structuring the spreadsheet and user interface.
 * **CSS3**: For styling the layout, fonts, and cell formatting.
 * **Graph Data Structure**: To track dependencies between cells and handle formula recalculations.
 
-### **Future Improvements**
+### Future Improvements
 * **Support for More Complex Formulas**: Enhance formula parsing to support functions like IF, VLOOKUP, COUNTIF, etc.
 * **Undo/Redo Functionality**: Implement a history of changes to allow users to undo or redo actions.
 * **Keyboard Shortcuts**: Add keyboard shortcuts for common operations like copy-paste, undo, redo, etc.
