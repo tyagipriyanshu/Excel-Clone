@@ -14,7 +14,7 @@ This is a lightweight **Excel Clone** application built using **Vanilla JavaScri
 ## Installation
 To run the application locally:
 * Clone the repository:
-`git clone https://github.com/your-username/excel-clone.git`
+`git clone https://github.com/tyagipriyanshu/Excel-Clone.git`
 * Navigate into the project directory:
 `cd excel-clone`
 * Open the `index.html` file in your browser to start using the application.
