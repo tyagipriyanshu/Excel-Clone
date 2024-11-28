@@ -9,7 +9,7 @@ This is a lightweight **Excel Clone** application built using **Vanilla JavaScri
 * **Grid Layout**: Built with **CSS Grid** to create a responsive and flexible spreadsheet layout. (**A-Z** cols, **1-100** rows)
 * **Dependency Graph**: Uses a **Directed Acyclic Graph** **(DAG)** to manage formula dependencies between cells, ensuring accurate and efficient updates when a cell’s value changes.
 * **Multiple Sheets**: Create and switch between multiple sheets in the same workbook. Each sheet functions independently, with its own set of data and formulas.
-* **Basic Save/Dowmload**: Save your spreadsheet data or download.
+* **Basic Save/Download**: Save your spreadsheet data or download.
 
 ## Installation
 To run the application locally:
